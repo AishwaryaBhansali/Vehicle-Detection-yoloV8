@@ -1,83 +1,83 @@
-Vehicle Detection and Color Classification using YOLOv8 and ResNet50
-Overview
+<h1>Vehicle Detection and Color Classification using YOLOv8 and ResNet50</h1>
+<b>Overview</b>
 
 This project focuses on vehicle detection and color classification using deep learning techniques. We utilize a top-view vehicle detection image dataset and a pretrained YOLOv8 model for vehicle type detection. Additionally, for accurate color classification, we integrate our original dataset with the V-COR dataset. A pretrained ResNet50 model is used for color classification. Finally, both models are combined to provide a comprehensive output displaying vehicle type and color.
 
-Dataset
+<b>Dataset</b>
 
-1.Vehicle Type Detection: A top-view vehicle detection image dataset is used.
+1. Vehicle Type Detection: A top-view vehicle detection image dataset is used. 
 
-2.Color Classification: The V-COR dataset is merged with our original dataset to enhance color classification accuracy.
+2. Color Classification: The V-COR dataset is merged with our original dataset to enhance color classification accuracy.
 
-Models Used
+<b>Models Used</b>
 
-1.Vehicle Type Detection: YOLOv8 (pretrained model)
+1. Vehicle Type Detection: YOLOv8 (pretrained model)
 
-2.Color Classification: ResNet50 (pretrained model)
+2. Color Classification: ResNet50 (pretrained model)
 
-3.Final Output: Integration of both models to detect vehicle type and color together.
+3. Final Output: Integration of both models to detect vehicle type and color together.
 
-Vehicle Detection using YOLOv8
+<b>Vehicle Detection using YOLOv8</b>
 
-1.Loading the pretrained YOLOv8 model.
+    * Loading the pretrained YOLOv8 model.
+  
+    * Training/fine-tuning on the dataset.
+  
+    * Performing inference for vehicle type detection.
+  
+    * Color Classification using ResNet50
+  
+    * Loading the pretrained ResNet50 model.
+  
+    * Training/fine-tuning for color classification.
+  
+    * Classifying vehicle colors accurately.
+  
+    * Integration of Models
+  
+    * Combining YOLOv8 and ResNet50 models.
+  
+    * Displaying final output with detected vehicle type and color.
 
-2.Training/fine-tuning on the dataset.
+<b>Dependencies</b>
 
-3.Performing inference for vehicle type detection.
+    * Python 3.x
+  
+    * PyTorch
+  
+    * Ultralytics YOLOv8
+  
+    * TensorFlow/Keras (for ResNet50)
+  
+    * OpenCV
+  
+    * NumPy
+  
+    * Pandas
 
-4.Color Classification using ResNet50
-
-5.Loading the pretrained ResNet50 model.
-
-6.Training/fine-tuning for color classification.
-
-7.Classifying vehicle colors accurately.
-
-8.Integration of Models
-
-9.Combining YOLOv8 and ResNet50 models.
-
-10.Displaying final output with detected vehicle type and color.
-
-Dependencies
-
-Python 3.x
-
-PyTorch
-
-Ultralytics YOLOv8
-
-TensorFlow/Keras (for ResNet50)
-
-OpenCV
-
-NumPy
-
-Pandas
-
-How to Run
+<b>How to Run</b>
 
 Clone the repository:
 
-git clone https://github.com/your-username/vehicle-detection-yolov8.git
-cd vehicle-detection-yolov8
+    git clone https://github.com/your-username/vehicle-detection-yolov8.git
+    cd vehicle-detection-yolov8
 
-Install dependencies:
+<b>Install dependencies:</b>
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-Results
+<b>Results</b>
 
-The model successfully detects vehicles and classifies them into different types.
+    * The model successfully detects vehicles and classifies them into different types.
+    
+    * The color classification model enhances accuracy by leveraging the V-COR dataset.
+    
+    * The integrated model displays both vehicle type and color in the final output.
 
-The color classification model enhances accuracy by leveraging the V-COR dataset.
+<b>Future Improvements</b>
 
-The integrated model displays both vehicle type and color in the final output.
-
-Future Improvements
-
-Enhance dataset quality by including more diverse vehicle images.
-
-Improve model accuracy using hyperparameter tuning.
-
-Implement real-time inference with optimized performance.
+    * Enhance dataset quality by including more diverse vehicle images.
+    
+    * Improve model accuracy using hyperparameter tuning.
+    
+    * Implement real-time inference with optimized performance.
