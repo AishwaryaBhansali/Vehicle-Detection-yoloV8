@@ -17,7 +17,7 @@ This project focuses on vehicle detection and color classification using deep le
 
 3. 🔧 Final Output: Integration of both models to detect vehicle type and color together.
 
-<b>Vehicle Detection using YOLOv8</b>
+<b>Vehicle Detection and Color Detection</b>
 
     * Loading the pretrained YOLOv8 model.
   
