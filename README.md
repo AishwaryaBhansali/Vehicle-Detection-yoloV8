@@ -55,6 +55,10 @@ This project focuses on vehicle detection and color classification using deep le
   
     * Pandas
 
+<b> Dataset link </b>
+For training YOLOV8 - https://www.kaggle.com/code/farzadnekouei/real-time-traffic-density-estimation-with-yolov8
+For training ResNet50 - https://www.kaggle.com/datasets/landrykezebou/vcor-vehicle-color-recognition-dataset
+
 <b>How to Run</b>
 
 Clone the repository:
